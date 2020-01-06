@@ -1,0 +1,21 @@
+{# Default theme template. #}
+
+{% extends 'layout/base.twig' %}
+
+{% block content %}
+
+  <main>
+    {% for post in posts %}
+      <h1>{{ post.title }}</h1>
+
+      <div class="main-container">
+        {% include 'partials/nav-contextual.twig' with { 'items': primary_nav.get_items } %}
+
+        <div class="main">
+          {{ post.content }}
+        </div>
+      </div>
+    {% endfor %}
+  </main>
+
+{% endblock %}

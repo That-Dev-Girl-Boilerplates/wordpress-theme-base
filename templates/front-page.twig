@@ -1,0 +1,11 @@
+{# Front page theme template. #}
+
+{% extends 'layout/base.twig' %}
+
+{% block content %}
+  <main>
+    {% for post in posts %}
+      {{ post.content }}
+    {% endfor %}
+  </main>
+{% endblock %}

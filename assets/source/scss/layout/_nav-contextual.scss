@@ -1,0 +1,14 @@
+/**
+ * Contextual navigation style.
+ */
+
+.contextual-nav {
+
+  // Do not display on small screens.
+  display: none;
+
+  @media screen and ( min-width: $medium ) {
+    display: block;
+  }
+
+}

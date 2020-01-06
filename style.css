@@ -1,0 +1,9 @@
+/**
+ * Theme Name: WordPress Theme Base
+ * Description: A custom base theme.
+ * Author: Joni Halabi (thatdevgirl)
+ * Author URI: https://thatdevgirl.com
+ * Version: 1.0
+*/
+
+@import 'assets/build/css/styles.min.css';

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'partials/site-header.twig' %}
+
+<body>
+  <div class="container">
+    {% include 'partials/page-header.twig' %}
+
+    {% block content %}
+      <p>Sorry, no content.</p>
+    {% endblock %}
+
+    {% include 'partials/page-footer.twig' with { 'items': footer_nav.get_items } %}
+  </div>
+</body>
+
+</html>

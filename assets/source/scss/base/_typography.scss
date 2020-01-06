@@ -1,0 +1,23 @@
+/**
+ * Default typography styles.
+ */
+
+$sans-serif: Helvetica, Arial, sans-serif;
+$serif:      serif;
+
+body {
+  color: $black;
+}
+
+p, li {
+  font-family: $sans-serif;
+  font-size: 1rem;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
