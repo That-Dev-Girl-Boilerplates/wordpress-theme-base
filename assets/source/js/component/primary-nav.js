@@ -4,7 +4,7 @@
 
 ( function( $ ) {
 
-  const adfNavigation = {
+  const tdgNavigation = {
     go: function() {
       // Events.
       $( '#nav-show' ).on( 'click', this.show );
@@ -36,6 +36,6 @@
   };
 
   // Run this thing.
-  $( document ).ready( () => { adfNavigation.go(); } );
+  $( document ).ready( () => { tdgNavigation.go(); } );
 
 })( jQuery );

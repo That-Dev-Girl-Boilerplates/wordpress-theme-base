@@ -1,9 +1,9 @@
 /**
- * Theme Name: WordPress Theme Base
- * Description: A custom base theme.
- * Author: Joni Halabi (thatdevgirl)
- * Author URI: https://thatdevgirl.com
+ * Theme Name: ThatDevGirl Basic Block Theme
+ * Description: A basic block theme.
+ * Author: Joni Halabi
+ * Author URI: https://jhalabi.com
  * Version: 1.0
-*/
+ */
 
-@import 'assets/build/css/styles.min.css';
+@import 'assets/build/css/styles.css';

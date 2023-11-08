@@ -6,7 +6,7 @@ $sans-serif: Helvetica, Arial, sans-serif;
 $serif:      serif;
 
 body {
-  color: $black;
+  color: var(--tdg-black);
 }
 
 p, li {
