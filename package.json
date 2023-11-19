@@ -1,7 +1,7 @@
 {
-  "name": "wordpress-theme-base",
-  "version": "1.1.0",
-  "description": "ThatDevGirl Basic Block Theme",
+  "name": "strings-for-solace-theme",
+  "version": "1.0.0",
+  "description": "Strings For Solace Block Theme",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

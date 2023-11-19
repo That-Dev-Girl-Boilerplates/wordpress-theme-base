@@ -3,6 +3,23 @@
   "version": 2,
 
   "settings": {
+
+    "color": {
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "duotone": [],
+      "gradients": [],
+      "palette": [
+        { "name": "Black",        "slug": "black",        "color": "#333" },
+        { "name": "White",        "slug": "white",        "color": "#fff" },
+        { "name": "Golden Brown", "slug": "golden-brown", "color": "#a16620" },
+        { "name": "Urobilin",     "slug": "urobilin",     "color": "#dcba23" }
+      ]
+    },
+
     "layout": {
       "contentSize": "840px",
       "wideSize": "1100px"
