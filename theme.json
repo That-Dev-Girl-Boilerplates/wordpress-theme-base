@@ -13,10 +13,13 @@
       "duotone": [],
       "gradients": [],
       "palette": [
-        { "name": "Black",        "slug": "black",        "color": "#333" },
-        { "name": "White",        "slug": "white",        "color": "#fff" },
-        { "name": "Golden Brown", "slug": "golden-brown", "color": "#a16620" },
-        { "name": "Urobilin",     "slug": "urobilin",     "color": "#dcba23" }
+        { "name": "Black",          "slug": "black",          "color": "#222222" },
+        { "name": "White",          "slug": "white",          "color": "#ffffff" },
+        { "name": "Melon",          "slug": "melon",          "color": "##ef0a1" },
+        { "name": "Cherry Blossom", "slug": "cherry-blossom", "color": "#f4afb4" },
+        { "name": "Pale Dogwood",   "slug": "pale-dogwood",   "color": "#c9b7ad" },
+        { "name": "Cambridge Blue", "slug": "cambridge-blue", "color": "#94a89a" },
+        { "name": "Grey",           "slug": "grey",           "color": "#797d81" }
       ]
     },
 

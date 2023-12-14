@@ -1,23 +1,63 @@
 /**
- * Default typography styles.
+ * Typography
  */
 
-$sans-serif: Helvetica, Arial, sans-serif;
-$serif:      serif;
+@font-face {
+  font-family: OpenSans;
+  src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+
+$serif: serif;
+$sans: OpenSans, sans-serif;
+
 
 body {
-  color: var(--tdg-black);
-}
-
-p, li {
-  font-family: $sans-serif;
+  font-family: $sans;
   font-size: 1rem;
+  line-height: 1.2;
 }
 
-em, i {
-  font-style: italic;
-}
-
-strong, b {
+h1 {
+  font-family: $serif;
+  font-size: 3.815rem;
   font-weight: bold;
+  line-height: 2;
+}
+
+h2 {
+  font-family: $serif;
+  font-size: 3.052rem;
+  font-weight: bold;
+  line-height: 2.25;
+}
+
+h3 {
+  font-size: 2.441rem;
+  font-weight: bold;
+  line-height: 2;
+}
+
+h4 {
+  font-size: 1.953rem;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+h5 {
+  font-size: 1.563rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+h6 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-block: 3rem;
 }

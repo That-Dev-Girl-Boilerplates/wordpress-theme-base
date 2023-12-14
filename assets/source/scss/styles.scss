@@ -1,11 +1,11 @@
-// Base files
+// Base styles
 @import 'base/reset';
-@import 'base/sizes';
 @import 'base/typography';
 @import 'base/utility';
 
-// Layout files
+// Layout
 @import 'layout/footer';
 @import 'layout/header';
+@import 'layout/main';
 
-// Component files
+// Blocks

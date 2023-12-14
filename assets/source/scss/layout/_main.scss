@@ -1,0 +1,14 @@
+/**
+ * Main
+ */
+
+ main {
+
+  // Default pages only.
+  &.main-default-page {
+    margin-block-start: 2rem;
+    margin-inline: auto;
+    max-width: var(--wp--style--global--wide-size);
+  }
+
+}

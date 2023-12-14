@@ -4,30 +4,9 @@
 
 header {
 
-  // Cover
-  .wp-block-cover {
-    // Give the header some space at the bottom.
-    padding-block-end: 20vw;
-
-    // Make sure the logo and menu flow side-by-side.
-    &__inner-container {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-
-
-
-  // Navigation
-  // Small screen modal menu
-  .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
-    background-color: var( --wp--preset--color--black );
-  }
-
-  .wp-block-navigation.items-justified-right {
-    --navigation-layout-justification-setting: flex-start;
-    --navigation-layout-justify: flex-start;
-    margin-inline: 1rem;
-  }
+  display: grid;
+  grid-template-columns: 10rem 1fr 10rem;
+  margin-block-start: 1rem;
+  padding-inline: 2rem;
 
 }
