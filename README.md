@@ -1,6 +1,6 @@
-# Strings For Solace
+# WordPress Base Bock Theme
 
-A custom block theme for the Strings For Solace website.
+A custom block theme boilerplate.
 
 ## Usage
 
